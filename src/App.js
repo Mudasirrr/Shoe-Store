@@ -31,6 +31,14 @@ function App() {
 
   useEffect(() => {
     recieveProducts(mockProducts);
+    //   fetch(dataURL)
+    //     .then((res) => res.json())
+    //     .then((products) => recieveProducts(products))
+    //     .catch((err) => {
+    //       console.error("Error: ", err);
+    //       setError(true);
+    //     });
+    //eslint-disable-next-line
   }, []);
 
   return (
