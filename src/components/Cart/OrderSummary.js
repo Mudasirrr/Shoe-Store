@@ -53,7 +53,7 @@ const OrderSummary = () => {
         </Grid>
         <Grid item xs={12} className={classes.row}>
           <Typography variant="button">{numOfItems} items</Typography>
-          <Typography variant="button">${totalPrice}</Typography>
+          <Typography variant="button">Rs:{totalPrice}</Typography>
         </Grid>
         <Grid item xs={12} className={classes.row}>
           <Typography variant="button">Delivery</Typography>
@@ -65,7 +65,7 @@ const OrderSummary = () => {
         </Grid>
         <Grid item xs={12} className={classes.row}>
           <Typography variant="button">Total</Typography>
-          <Typography variant="button">${totalPrice}</Typography>
+          <Typography variant="button">Rs:{totalPrice}</Typography>
         </Grid>
       </Grid>
       <Button

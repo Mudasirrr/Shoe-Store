@@ -82,7 +82,7 @@ const ProductCard = ({ product }) => {
   }
 
   return (
-    <Card className={classes.root} onClick={handleClick} style={{background:'pink'}}>
+    <Card className={classes.root} onClick={handleClick}>
       <CardMedia
         className={classes.media}
         image={product.imageURL}
@@ -94,6 +94,8 @@ const ProductCard = ({ product }) => {
             <Typography
               variant="h6"
               component="h3"
+              
+              style={{color:'purple'}}
               className={classes.h3ResponsiveText}
             >
               {product.name}
@@ -102,10 +104,12 @@ const ProductCard = ({ product }) => {
               <Typography
                 variant="h6"
                 component="h3"
+                style={{color:'blue'}}
+
                 className={clsx(classes.h3ResponsiveText)}
                 align="right"
               >
-                ${product.price}
+                Rs:{product.price}
               </Typography>
             </Hidden>
           </div>
@@ -113,6 +117,8 @@ const ProductCard = ({ product }) => {
             variant="button"
             color="textSecondary"
             component="p"
+            
+            style={{color:'green'}}
             className={classes.btnResponsiveText}
           >
             {product.brand}
@@ -124,6 +130,8 @@ const ProductCard = ({ product }) => {
                   variant="button"
                   color="textSecondary"
                   component="p"
+                  
+                style={{color:'red'}}
                   className={classes.btnResponsiveText}
                 >
                   Items left: <strong>{product.items_left}</strong>

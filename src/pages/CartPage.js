@@ -32,17 +32,20 @@ const CartPage = () => {
 
   return (
     <Container className={classes.root}>
-      <Typography variant="h4" component="h4" className={classes.heading}>
+      <Typography variant="h4" component="h4" className={classes.heading}
+                style={{color:'Green'}}>
         Your cart
       </Typography>
-      <Typography variant="button" component="p" className={classes.total}>
-        Total: <strong>${totalPrice}</strong>
+      <Typography variant="button" component="p" className={classes.total}
+                style={{color:'yellow'}}>
+        Total: <strong>Rs:{totalPrice}</strong>
       </Typography>
-      <Grid container spacing={4}>
+      <Grid container spacing={4} >
         <Grid item xs={12} md={8}>
           <CartItemList />
         </Grid>
-        <Grid item xs={12} md={4}>
+        <Grid item xs={12} md={4}
+                style={{background:'pink',color:'green'}}>
           <OrderSummary />
         </Grid>
       </Grid>

@@ -79,7 +79,8 @@ const CartItemCard = ({ product }) => {
   }
 
   return (
-    <Grid container className={classes.root}>
+    <Grid container className={classes.root}
+    style={{background:'yellow'}}>
       <IconButton
         color="inherit"
         className={classes.cancelBtn}
@@ -115,7 +116,7 @@ const CartItemCard = ({ product }) => {
             color="textSecondary"
             className={clsx(classes.responsiveText, classes.blackOnXS)}
           >
-            ${product.price}
+            Rs:{product.price}
           </Typography>
           <Typography
             variant="button"

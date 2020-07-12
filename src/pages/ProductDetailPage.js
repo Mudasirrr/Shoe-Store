@@ -49,7 +49,8 @@ const ProductDetailPage = () => {
             alt={product.name}
           />
         </Grid>
-        <Grid item xs={12} md={6} container direction="column">
+        <Grid item xs={12} md={6} container direction="column"
+                style={{background:'pink'}}>
           <Grid item>
             <Typography variant="h4" className={classes.name}>
               {product.name}
@@ -66,22 +67,27 @@ const ProductDetailPage = () => {
             style={{ marginTop: 20 }}
           >
             <Grid item xs={6}>
-              <Typography variant="button">Price</Typography>
+              <Typography variant="button"
+                style={{color:'blue'}}>Price</Typography>
             </Grid>
             <Grid item xs={6}>
-              <Typography variant="button"> ${product.price}</Typography>
+              <Typography variant="button"
+                style={{color:'red'}}> Rs:{product.price}</Typography>
             </Grid>
             <Grid item xs={6}>
-              <Typography variant="button">Items left</Typography>
+              <Typography variant="button"
+                style={{color:'blue'}}>Items left</Typography>
             </Grid>
             <Grid item xs={6}>
-              <Typography variant="button">{product.items_left}</Typography>
+              <Typography variant="button"
+                style={{color:'blue'}}>{product.items_left}</Typography>
             </Grid>
             <Grid item xs={6}>
-              <Typography variant="button">Rating</Typography>
+              <Typography variant="button"
+                style={{color:'blue'}}>Rating</Typography>
             </Grid>
             <Grid item xs={6}>
-              <Rating value={rating} precision={0.5} readOnly />
+              <Rating value={rating} precision={1} readOnly />
             </Grid>
           </Grid>
           <Grid item container>

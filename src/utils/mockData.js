@@ -5,7 +5,7 @@ export const products = [
     brand: "NIKE",
     gender: "MEN",
     category: "RUNNING",
-    price: 160,
+    price: 1600,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -18,7 +18,7 @@ export const products = [
     brand: "NIKE",
     gender: "MEN",
     category: "RUNNING",
-    price: 130,
+    price: 1300,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -31,7 +31,7 @@ export const products = [
     brand: "NIKE",
     gender: "WOMEN",
     category: "RUNNING",
-    price: 120,
+    price: 1200,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -44,7 +44,7 @@ export const products = [
     brand: "NIKE",
     gender: "WOMEN",
     category: "RUNNING",
-    price: 180,
+    price: 1800,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -57,7 +57,7 @@ export const products = [
     brand: "NIKE",
     gender: "WOMEN",
     category: "FOOTBALL",
-    price: 250,
+    price: 2500,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -70,7 +70,7 @@ export const products = [
     brand: "NIKE",
     gender: "WOMEN",
     category: "FOOTBALL",
-    price: 150,
+    price: 1500,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -83,7 +83,7 @@ export const products = [
     brand: "NIKE",
     gender: "WOMEN",
     category: "FOOTBALL",
-    price: 80,
+    price: 800,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -96,7 +96,7 @@ export const products = [
     brand: "NIKE",
     gender: "MEN",
     category: "FOOTBALL",
-    price: 145,
+    price: 1405,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -109,7 +109,7 @@ export const products = [
     brand: "NIKE",
     gender: "MEN",
     category: "FOOTBALL",
-    price: 137,
+    price: 1370,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -117,12 +117,12 @@ export const products = [
     slug: "nike-mercurial-superfly-7-pro-mds-fg",
   },
   {
-    id: 10,
+    id: 100,
     name: "Nike Air Force 1",
     brand: "NIKE",
     gender: "KIDS",
     category: "CASUAL",
-    price: 90,
+    price: 900,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -135,7 +135,7 @@ export const products = [
     brand: "NIKE",
     gender: "KIDS",
     category: "CASUAL",
-    price: 100,
+    price: 1000,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -148,7 +148,7 @@ export const products = [
     brand: "NIKE",
     gender: "KIDS",
     category: "CASUAL",
-    price: 110,
+    price: 1100,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -161,7 +161,7 @@ export const products = [
     brand: "NIKE",
     gender: "KIDS",
     category: "RUNNING",
-    price: 110,
+    price: 1100,
     is_in_inventory: false,
     items_left: 3,
     imageURL:
@@ -174,7 +174,7 @@ export const products = [
     brand: "NIKE",
     gender: "KIDS",
     category: "RUNNING",
-    price: 80,
+    price: 800,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -187,7 +187,7 @@ export const products = [
     brand: "HUSHPUPPIES",
     gender: "MEN",
     category: "FORMAL",
-    price: 30,
+    price: 300,
     is_in_inventory: true,
     items_left: 4,
     imageURL:
@@ -200,7 +200,7 @@ export const products = [
     brand: "HUSHPUPPIES",
     gender: "MEN",
     category: "FORMAL",
-    price: 80,
+    price: 800,
     is_in_inventory: true,
     items_left: 5,
     imageURL:
@@ -213,7 +213,7 @@ export const products = [
     brand: "HUSHPUPPIES",
     gender: "MEN",
     category: "FORMAL",
-    price: 70,
+    price: 700,
     is_in_inventory: true,
     items_left: 6,
     imageURL:
@@ -226,7 +226,7 @@ export const products = [
     brand: "HUSHPUPPIES",
     gender: "MEN",
     category: "FORMAL",
-    price: 75,
+    price: 7500,
     is_in_inventory: true,
     items_left: 7,
     imageURL:
@@ -239,7 +239,7 @@ export const products = [
     brand: "HUSHPUPPIES",
     gender: "MEN",
     category: "FORMAL",
-    price: 75,
+    price: 7500,
     is_in_inventory: true,
     items_left: 2,
     imageURL:
@@ -252,7 +252,7 @@ export const products = [
     brand: "HUSHPUPPIES",
     gender: "WOMEN",
     category: "FORMAL",
-    price: 30,
+    price: 3000,
     is_in_inventory: true,
     items_left: 6,
     imageURL:
@@ -265,7 +265,7 @@ export const products = [
     brand: "HUSHPUPPIES",
     gender: "WOMEN",
     category: "FORMAL",
-    price: 50,
+    price: 5000,
     is_in_inventory: true,
     items_left: 4,
     imageURL:
@@ -278,7 +278,7 @@ export const products = [
     brand: "HUSHPUPPIES",
     gender: "WOMEN",
     category: "FORMAL",
-    price: 35,
+    price: 3500,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -291,7 +291,7 @@ export const products = [
     brand: "HUSHPUPPIES",
     gender: "WOMEN",
     category: "CASUAL",
-    price: 25,
+    price: 2500,
     is_in_inventory: true,
     items_left: 7,
     imageURL:
@@ -304,7 +304,7 @@ export const products = [
     brand: "HUSHPUPPIES",
     gender: "WOMEN",
     category: "CASUAL",
-    price: 35,
+    price: 3500,
     is_in_inventory: true,
     items_left: 4,
     imageURL:
@@ -317,7 +317,7 @@ export const products = [
     brand: "HUSHPUPPIES",
     gender: "WOMEN",
     category: "CASUAL",
-    price: 30,
+    price: 3000,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -330,7 +330,7 @@ export const products = [
     brand: "ADIDAS",
     gender: "KIDS",
     category: "CASUAL",
-    price: 55,
+    price: 5500,
     is_in_inventory: true,
     items_left: 6,
     imageURL:
@@ -343,7 +343,7 @@ export const products = [
     brand: "ADIDAS",
     gender: "KIDS",
     category: "CASUAL",
-    price: 65,
+    price: 6500,
     is_in_inventory: true,
     items_left: 5,
     imageURL:
@@ -356,7 +356,7 @@ export const products = [
     brand: "ADIDAS",
     gender: "KIDS",
     category: "CASUAL",
-    price: 55,
+    price: 5500,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -369,7 +369,7 @@ export const products = [
     brand: "ADIDAS",
     gender: "KIDS",
     category: "RUNNING",
-    price: 120,
+    price: 1200,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -382,7 +382,7 @@ export const products = [
     brand: "ADIDAS",
     gender: "WOMEN",
     category: "CASUAL",
-    price: 140,
+    price: 1400,
     is_in_inventory: true,
     items_left: 5,
     imageURL:
@@ -395,7 +395,7 @@ export const products = [
     brand: "ADIDAS",
     gender: "WOMEN",
     category: "CASUAL",
-    price: 90,
+    price: 900,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -408,7 +408,7 @@ export const products = [
     brand: "Reebok",
     gender: "MEN",
     category: "CASUAL",
-    price: 70,
+    price: 700,
     is_in_inventory: true,
     items_left: 3,
     imageURL:
@@ -421,7 +421,7 @@ export const products = [
     brand: "Vans",
     gender: "MEN",
     category: "CASUAL",
-    price: 60,
+    price: 6000,
     is_in_inventory: true,
     items_left: 3,
     imageURL: "https://images.vans.com/is/image/Vans/UUK24I-HERO?$583x583$",
@@ -433,7 +433,7 @@ export const products = [
     brand: "Vans",
     gender: "MEN",
     category: "CASUAL",
-    price: 72,
+    price: 7002,
     is_in_inventory: true,
     items_left: 3,
     imageURL: "https://images.vans.com/is/image/Vans/MV122M-HERO?$583x583$",
