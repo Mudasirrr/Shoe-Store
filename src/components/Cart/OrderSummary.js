@@ -75,7 +75,7 @@ const OrderSummary = () => {
         fullWidth
         onClick={handleCheckout}
       >
-        Checkout
+        Buy All!
       </Button>
     </>
   );
