@@ -82,7 +82,7 @@ const ProductCard = ({ product }) => {
   }
 
   return (
-    <Card className={classes.root} onClick={handleClick}>
+    <Card className={classes.root} onClick={handleClick} style={{background:'pink'}}>
       <CardMedia
         className={classes.media}
         image={product.imageURL}

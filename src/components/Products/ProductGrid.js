@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
 const ProductGrid = ({ products }) => {
   const classes = useStyles();
   return (
-    <Grid container spacing={2} className={classes.root}>
+    <Grid container spacing={2} className={classes.root} >
       {products.length > 0 ? (
         products.map((product) => (
           <Grid key={product.id} item xs={6} md={4}>

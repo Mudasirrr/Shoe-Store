@@ -14,7 +14,6 @@ import { products as mockProducts } from "./utils/mockData";
 import ProductDetailPage from "./pages/ProductDetailPage";
 import HomePage from "./pages/HomePage";
 
-// const dataURL = "https://shoe-store-api-bc2020.herokuapp.com/products/";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -22,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
+      backgroundImage: 'url("background.jpg")',
   },
 }));
 
@@ -31,14 +31,6 @@ function App() {
 
   useEffect(() => {
     recieveProducts(mockProducts);
-    //   fetch(dataURL)
-    //     .then((res) => res.json())
-    //     .then((products) => recieveProducts(products))
-    //     .catch((err) => {
-    //       console.error("Error: ", err);
-    //       setError(true);
-    //     });
-    //eslint-disable-next-line
   }, []);
 
   return (
@@ -53,7 +45,6 @@ function App() {
           <Route path="/kids" element={<ShopPage category="kids" />} />
           <Route path="/cart" element={<CartPage />} />
           <Route path="/products/:slug" element={<ProductDetailPage />} />
-          {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>
       ) : (
         <p>Fetching data...</p>

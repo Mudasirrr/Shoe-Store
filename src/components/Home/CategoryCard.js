@@ -9,7 +9,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     width: "100%",
     margin: theme.spacing(2),
-    borderRadius: "8px",
+    borderRadius: "30px",
 
     "&:hover": {
       cursor: "pointer",
@@ -19,9 +19,6 @@ const useStyles = makeStyles((theme) => ({
     height: 160,
   },
 
-  cardContent: {
-    // backgroundColor: theme.palette.secondary.main,
-  },
 
   name: {
     textAlign: "center",
@@ -32,7 +29,7 @@ const CategoryCard = ({ name, imageURL, onClick }) => {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root} onClick={onClick}>
+    <Card className={classes.root} onClick={onClick}style={{background:"pink"}}>
       <CardMedia className={classes.media} image={imageURL} title={name} />
       <CardContent className={classes.cardContent}>
         <Typography variant="h6" component="h3" className={classes.name}>

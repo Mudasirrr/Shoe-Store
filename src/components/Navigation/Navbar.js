@@ -36,14 +36,14 @@ const Navbar = ({ onMenuClickHandler }) => {
 
   return (
     <>
-      <AppBar position="sticky" className={classes.appBar}>
-        <Toolbar className={classes.container}>
+      <AppBar position="sticky" className={classes.appBar} style={{background:"purple"}}>
+        <Toolbar className={classes.container} style={{background:"purple"}}>
           <Link to="/">
-            <img src="/logo.png" alt="logo" width="128px" />
+            <img src="/logo.jpg" alt="logo" width="128px" />
           </Link>
           <Hidden xsDown>
             <div className={classes.links}>
-              <NavLink name="Home" to="/" end={true} />
+              <NavLink name="Shoe Store" to="/" end={true} />
               <NavLink name="Men" to="men" />
               <NavLink name="Women" to="women" />
               <NavLink name="Kids" to="kids" />

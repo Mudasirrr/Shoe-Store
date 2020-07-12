@@ -7,14 +7,14 @@ import { useNavigate } from "react-router-dom";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 10,
-    backgroundImage: 'url("bg.jpg")',
+    backgroundImage: 'url("background.jpg")',
     backgroundSize: "cover",
     backgroundPosition: "center",
     display: "flex",
     // alignItems: "center",
 
     [theme.breakpoints.down("sm")]: {
-      backgroundImage: 'url("bg_portrait.jpg")',
+      backgroundImage: 'url("background.jpg")',
     },
   },
 
@@ -64,7 +64,7 @@ const HomePage = () => {
           align="center"
           className={classes.heading}
         >
-          Shoe Store
+          <h4 style={{color:"yellow"}}>Welcome <br/>To The Shoe Store </h4>
         </Typography>
         <Typography
           variant="h4"
@@ -72,7 +72,6 @@ const HomePage = () => {
           align="center"
           className={classes.subHeading}
         >
-          streetwear / lifestyle / sports
         </Typography>
         <div className={classes.cardContainer}>
           <CategoryCard

@@ -52,7 +52,7 @@ const RightDrawer = ({ open, onClickHandler }) => {
           icon={<FaMale size={iconSize} />}
           onClickHandler={() => navigate("men")}
         />
-        <Item
+        <Item style={{background:"blue"}}
           name="Women"
           icon={<FaFemale size={iconSize} />}
           onClickHandler={() => navigate("women")}

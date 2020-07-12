@@ -85,14 +85,14 @@ const ShopPage = ({ category }) => {
   };
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} style={{}}>
       <Hidden mdUp>
         <div className={classes.categoryNav}>
-          <AppBar position="static" color="default">
+          <AppBar position="static" color="default" >
             <Tabs
               value={selectedIndex}
               onChange={handleListItemClick}
-              indicatorColor="primary"
+              indicatorColor="secondary"
               textColor="secondary"
               variant="scrollable"
               scrollButtons="auto"
@@ -106,7 +106,7 @@ const ShopPage = ({ category }) => {
         </div>
       </Hidden>
 
-      <Hidden smDown>
+      <Hidden smDown >
         <Drawer
           className={classes.drawer}
           variant="permanent"
@@ -115,7 +115,7 @@ const ShopPage = ({ category }) => {
           }}
         >
           <Toolbar />
-          <div className={classes.drawerContainer}>
+          <div className={classes.drawerContainer}  style={{color:'yellow'}}>
             <List>
               {categories.map((text, index) => (
                 <ListItem
