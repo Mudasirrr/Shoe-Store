@@ -143,7 +143,7 @@ const ProductCard = ({ product }) => {
                   className={clsx(classes.h3ResponsiveText)}
                   align="right"
                 >
-                  ${product.price}
+                  Rs:{product.price}
                 </Typography>
               </Hidden>
               <IconButton color="inherit" onClick={handleAddToCart}>
