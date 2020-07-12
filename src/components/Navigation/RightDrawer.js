@@ -40,9 +40,9 @@ const RightDrawer = ({ open, onClickHandler }) => {
       }}
       onClick={onClickHandler}
     >
-      <List>
+      <List style={{background:'purple'}}>
         <Item
-          name="Home"
+          name="Shoe Store"
           icon={<HomeIcon />}
           onClickHandler={() => navigate("/")}
         />
@@ -52,7 +52,7 @@ const RightDrawer = ({ open, onClickHandler }) => {
           icon={<FaMale size={iconSize} />}
           onClickHandler={() => navigate("men")}
         />
-        <Item style={{background:"blue"}}
+        <Item 
           name="Women"
           icon={<FaFemale size={iconSize} />}
           onClickHandler={() => navigate("women")}
